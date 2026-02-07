@@ -15,7 +15,8 @@
 
 body {
   margin: 0;
-  overflow: hidden; /* Hide scrollbars */
+  overflow: hidden;
+  /* Hide scrollbars */
   display: flex;
   place-items: center;
   min-width: 320px;
@@ -40,7 +41,8 @@ body {
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
-  pointer-events: none; /* Let clicks pass through */
+  pointer-events: none;
+  /* Let clicks pass through */
   transition: opacity 0.3s ease;
   opacity: 0;
 }
@@ -62,12 +64,15 @@ p {
 }
 
 .label {
-    position: absolute;
-    color: white;
-    font-size: 12px;
-    font-family: sans-serif;
-    pointer-events: none;
-    text-shadow: 0 0 2px black;
-    transform: translate(-50%, -100%); /* Center above point */
-    white-space: nowrap;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: sans-serif;
+  pointer-events: none;
+  text-shadow: 0 0 3px black;
+  white-space: nowrap;
+  /* Transform is set in JS: translate(-50%, -100%) translate(x, y) */
 }
