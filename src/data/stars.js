@@ -106,5 +106,113 @@ export const stars = [
     spectral_class: "M3.5Ve",
     radius: 0.17,
     color: "#ffcccc"
+  },
+  {
+    name: "Ross 248",
+    distance_ly: 10.30,
+    ra: 355.4775, // 23h 41m 54.7s
+    dec: 44.175,  // +44d 10m 30s
+    spectral_class: "M5.5V",
+    radius: 0.16,
+    color: "#ff5555"
+  },
+  {
+    name: "Epsilon Eridani",
+    distance_ly: 10.52,
+    ra: 53.2325,  // 03h 32m 55.8s
+    dec: -9.4589, // -09d 27m 29s
+    spectral_class: "K2V",
+    radius: 0.735,
+    color: "#ffddaa"
+  },
+  {
+    name: "Lacaille 9352",
+    distance_ly: 10.74,
+    ra: 346.4667, // 23h 05m 52s
+    dec: -35.8531,// -35d 51m 11s
+    spectral_class: "M0.5V",
+    radius: 0.47,
+    color: "#ffcccc"
+  },
+  {
+    name: "Ross 128",
+    distance_ly: 11.03,
+    ra: 176.935,  // 11h 47m 44.4s
+    dec: 0.8061,  // +00d 48m 22s
+    spectral_class: "M4V",
+    radius: 0.197,
+    color: "#ff8888"
+  },
+  {
+    name: "EZ Aquarii A",
+    distance_ly: 11.27,
+    ra: 339.6458, // 22h 38m 33s
+    dec: -15.2997,// -15d 17m 59s
+    spectral_class: "M5V",
+    radius: 0.11, // Estimate for M5
+    color: "#ff5555"
+  },
+  {
+    name: "Procyon A",
+    distance_ly: 11.46,
+    ra: 114.8255, // 07h 39m 18.1s
+    dec: 5.225,   // +05d 13m 30s
+    spectral_class: "F5IV-V",
+    radius: 2.05,
+    color: "#ffffdd"
+  },
+  {
+    name: "Procyon B",
+    distance_ly: 11.46,
+    ra: 114.8255,
+    dec: 5.225,
+    spectral_class: "DQZ",
+    radius: 0.012, // White dwarf
+    color: "#ccddee"
+  },
+  {
+    name: "61 Cygni A",
+    distance_ly: 11.41,
+    ra: 316.7248, // 21h 06m 53.9s
+    dec: 38.7494, // +38d 44m 58s
+    spectral_class: "K5V",
+    radius: 0.665,
+    color: "#ffcb60"
+  },
+  {
+    name: "61 Cygni B",
+    distance_ly: 11.41,
+    ra: 316.7248,
+    dec: 38.7494,
+    spectral_class: "K7V",
+    radius: 0.595,
+    color: "#ff9966"
+  },
+  {
+    name: "Struve 2398 A",
+    distance_ly: 11.52,
+    ra: 280.6831, // 18h 42m 44s
+    dec: 59.6383, // +59d 38m 18s
+    spectral_class: "M3V",
+    radius: 0.34,
+    color: "#ffbbbb"
+  },
+  {
+    name: "Groombridge 34 A",
+    distance_ly: 11.62,
+    ra: 4.5958,   // 00h 18m 23s
+    dec: 44.0231, // +44d 01m 23s
+    spectral_class: "M1.5V",
+    radius: 0.38,
+    color: "#ffcccc"
+  },
+  {
+    name: "DX Cancri",
+    distance_ly: 11.82,
+    ra: 127.4556, // 08h 29m 49.3s
+    dec: 26.776,  // +26d 46m 33s
+    spectral_class: "M6.5V",
+    radius: 0.11,
+    color: "#ff0000"
   }
 ];
